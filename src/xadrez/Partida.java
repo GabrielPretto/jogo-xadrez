@@ -28,8 +28,18 @@ public class Partida {
 	}
 	
 	private void confInicial() {
-		setarNovaPeca('b', 6, new Torre(tabuleiro, Cor.BRANCO));
-		setarNovaPeca('e', 8, new Rei(tabuleiro, Cor.PRETO));
-		setarNovaPeca('e', 1, new Rei(tabuleiro, Cor.BRANCO));
+		setarNovaPeca('c', 1, new Torre(tabuleiro, Cor.BRANCO));
+        setarNovaPeca('c', 2, new Torre(tabuleiro, Cor.BRANCO));
+        setarNovaPeca('d', 2, new Torre(tabuleiro, Cor.BRANCO));
+        setarNovaPeca('e', 2, new Torre(tabuleiro, Cor.BRANCO));
+        setarNovaPeca('e', 1, new Torre(tabuleiro, Cor.BRANCO));
+        setarNovaPeca('d', 1, new Rei(tabuleiro, Cor.BRANCO));
+
+        setarNovaPeca('c', 7, new Torre(tabuleiro, Cor.PRETO));
+        setarNovaPeca('c', 8, new Torre(tabuleiro, Cor.PRETO));
+        setarNovaPeca('d', 7, new Torre(tabuleiro, Cor.PRETO));
+        setarNovaPeca('e', 7, new Torre(tabuleiro, Cor.PRETO));
+        setarNovaPeca('e', 8, new Torre(tabuleiro, Cor.PRETO));
+        setarNovaPeca('d', 8, new Rei(tabuleiro, Cor.PRETO));
 	}
 }
