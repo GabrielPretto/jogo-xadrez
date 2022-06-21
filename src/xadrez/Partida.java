@@ -23,6 +23,8 @@ public class Partida {
 		return mat;
 	}
 	
+	public PecaXadrez setMovimento(PosicaoXadrez )
+	
 	private void setarNovaPeca(char coluna, int linha, PecaXadrez peca) {
 		tabuleiro.localPeca(peca, new PosicaoXadrez(coluna, linha).dePosicao());
 	}
